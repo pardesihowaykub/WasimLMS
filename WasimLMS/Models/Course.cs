@@ -14,6 +14,6 @@ namespace WasimLMS.Models
         public DateTime EndDate { get; set; }
         public virtual ICollection<Module> Modules { get; set; }
         public virtual ICollection<Document> Documents { get; set; }
-        public virtual ICollection<ApplicationUser> AttendingMembers { get; set; }
+        public virtual ICollection<ApplicationUser> Users { get; set; }
     }
 }

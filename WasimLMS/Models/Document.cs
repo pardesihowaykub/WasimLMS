@@ -13,7 +13,7 @@ namespace WasimLMS.Models
         public string Path { get; set; }
         public string Description { get; set; }
         public DateTime Created { get; set; }
-        public int OwnerId { get; set; }
+        public int ApplicationUserId { get; set; }
         public int ActivityId { get; set; }
         public int CourseId { get; set; }
         public int ModuleId { get; set; }
