@@ -20,6 +20,6 @@ namespace WasimLMS.Models
         public virtual Activity Activity { get; set; }
         public virtual Course Course { get; set; }
         public virtual Module Module { get; set; }
-        public virtual ApplicationUser ApplicationUser { get; set; }
+        public virtual ApplicationUser Users { get; set; }
     }
 }

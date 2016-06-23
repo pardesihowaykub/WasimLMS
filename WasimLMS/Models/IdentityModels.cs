@@ -26,7 +26,7 @@ namespace WasimLMS.Models
 
         public int CourseId { get; set; }
 
-        public virtual ICollection<Course> Courses { get; set; }
+        public virtual Course Course { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
